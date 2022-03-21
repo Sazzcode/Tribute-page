@@ -74,7 +74,6 @@
     color:black;
     letter-spacing: 3px;
     line-height: 2;
-    z-index: 1;
     font-family:'Playfair Display', serif;
     font-weight: 600;
 }
@@ -276,10 +275,8 @@ color: var(--on-primary-bg);
         height: 15px;
       }
       #theme{
-        
         top: 0px;
         right: 15px;
-        
         padding: 8px;
         color:var(--on-primary-bg);
         font-size: 9px;
@@ -292,5 +289,10 @@ color: var(--on-primary-bg);
         margin-left: 3px;
     }
       
-}
+    #img-caption > p{
+        letter-spacing: 1px;
+       
+        
+    }
 
+}
