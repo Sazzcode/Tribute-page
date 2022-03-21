@@ -5,20 +5,30 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tribute Page</title>
-    <link rel="stylesheet" href="tribute.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body id="body">
     <main id="main-section">
+        <div id="theme">
+            <p id="theme-text">Light Mode</p>
+            <img id="icon" src="./img/light_mode_black_24dp.svg" alt="dark-icon" >
+            <label class="switch">
+                <input type="checkbox">
+                <span class="slider round"></span>
+              </label>
+        </div>
      <div id="title">
        <h1>
            Dr.Norman Boulag
        </h1>
-       <p>The Man who saved a Biliion Lives</p>
+       <p><strong>Man who saved a Billion Lives</strong></p>
      </div>
 
-     <div id="img-div">
+     <div id="img-div" data-aos="fade-left">
          <div id="image">
-            <img src="./img/trib-pics.jpg" alt="Tribute Pics">
+            <img src="./img/trib-pics.jpg" alt="Tribute Pics" title="tribute picture">
          </div>
          
         <div id="img-caption">
@@ -108,5 +118,12 @@
         If you have time, you should read more about this incredible human being on his <a id="tribute-link" target="_blank" href="#">Wikipedia entry</a> 
        </h3>
     </main>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init({
+        duration: 1000
+    });
+  </script>
+  <script src="./script.js"></script>
 </body>
 </html>
