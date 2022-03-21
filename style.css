@@ -1,7 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,300;0,400;1,300&family=Oswald:wght@300&family=Playfair+Display:wght@500&family=Poppins:wght@300&display=swap');
 
 
-
+*{
+    transition: all 1.5s linear;
+    -webkit-transition: all 1.5s linear;
+    -moz-transition: all 1.5s linear;
+    -ms-transition: all 1.5s linear;
+    -o-transition: all 1.5s linear;
+}
 :root{
     --primary-background-color: #eee;
     --img-background:white;
@@ -291,7 +297,6 @@ color: var(--on-primary-bg);
       
     #img-caption > p{
         letter-spacing: 1px;
-       
         
     }
 
