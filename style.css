@@ -248,6 +248,7 @@ color: var(--on-primary-bg);
          width: 80vw; 
          margin: 0 5px;
         font-family:'Playfair Display', serif;
+         font-size:14px;
     } 
 
     #tribute-info h3{
